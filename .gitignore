@@ -36,5 +36,12 @@ out/
 ### VS Code ###
 .vscode/
 
-### Kotlin ###
-.kotlin
+node_modules
+.env
+.env.prod
+coverage
+*.pem
+dist
+pgdata
+dhparam
+data
