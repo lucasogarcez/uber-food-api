@@ -2,6 +2,7 @@ import express, { Router } from 'express';
 // import { productRouter } from "./modules/products";
 
 const app = express();
+console.log("APP: ", app);
 
 // const routes = Router();
 // routes.use('/products', productRouter);
@@ -16,5 +17,5 @@ const app = express();
 // 		new Date(),
 // ));
 
-// app.listen(3333, () => 'Server listen on 3333');
+app.listen(3333, () => 'Server listen on 3333');
 

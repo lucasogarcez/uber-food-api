@@ -1,3 +1,11 @@
 version: '3'
 
+services:
+  non_relational_data_db:
+    container_name: mongo_db
 
+  relational_data_db:
+    container_name: postgresql_db
+
+  cache_db:
+    container_name: redis_db
